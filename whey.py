@@ -24,4 +24,15 @@ if percprot>100:
 st.write(f'**Valor de 100g de proteína:** R${valor100gprot}')
 
 
+hide_st_style="""
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    .css-1pmktlq{visibility: visible;}
+    </style>
+    """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+
 
