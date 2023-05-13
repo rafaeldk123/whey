@@ -1,5 +1,8 @@
 import streamlit as st
-import numpy as np
+from PIL import Image
+
+favicon=Image.open('logo.jfif')
+st.set_page_config(page_title='Calculadora de Whey',page_icon=favicon,layout="wide", initial_sidebar_state="collapsed")
 
 st.title('Calculadora de Whey')
 
