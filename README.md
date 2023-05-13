@@ -1,4 +1,4 @@
-# 📦 Streamlit App Starter Kit 
+# Calculadora de Whey
 ```
 ⬆️ (Replace above with your app's name)
 ```
